@@ -3,10 +3,10 @@ GandCD_PeerAsessment
 
 # Project for the course in coursera
 
-# Getting and Cleaning Data Course Project
+### Getting and Cleaning Data Course Project
 
 The zip file getdata-projectfiles-UCI HAR Dataset.zip was downloaded and then its files extracted in the working directory.
-This creates all the files in the  working directory that contains no subfolders and four 
+This creates all the files in the  working directory that contains no subfolders and ten 
 files - activity_labels.txt, features.txt, features_info.txt, and README.txt, subject_test.txt, X_test.txt,
 and y_test.txt, subject_train.txt, X_train.txt, y_train.txt.
 
@@ -49,5 +49,5 @@ Using aggregate() to create a data set with the average of each variable for eac
 Using melt() from the reshape2 package create a tidy data set with ID variables "subject" and "activity" that identify individual rows of data, variable column with the features, and value column with the averages. It has 11880 rows (30 subjects * 6 activities * 66 features) and 4 columns ("subject", "activity", "feature", and "average").
 Write the tidy data set to a tidyDataSet.txt file.
 
-Can read the text file with the tidy data set into R using: read.table("tidyDataSet.txt", header = TRUE)
+Can be read the text file with the tidy data set into R using: read.table("tidyDataSet.txt", header = TRUE)
 
